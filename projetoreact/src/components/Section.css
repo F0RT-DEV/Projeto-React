@@ -1,0 +1,14 @@
+body{
+    background-image: radial-gradient(#7f3d9e, #6d00d9);
+}
+section{
+   position: relative;
+}
+
+.arrows{
+    & button{
+        & img{
+            width: 100px;
+        }
+    }
+}
